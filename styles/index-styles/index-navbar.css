@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+}
+
+.logo {
+    color: var(--title-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    height: 100%;
+}
+.logo-img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.menu {
+    background-color: var(--bg-color);
+    border: none;
+    padding: 10px;
+    width: 50px;
+
+}
+
+.menu img {
+    width: 30px;
+}
