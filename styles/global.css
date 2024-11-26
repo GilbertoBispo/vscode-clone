@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #0D1117;
+    --button-color: #0078D4;
+    --button-hover-color: #005BA4;
+    --title-color: #E9EAEB;
+    --font-color: #9BA3B4;
+    --link-color: #4DAAFC;
+}
