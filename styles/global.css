@@ -1,11 +1,19 @@
 @font-face {
-    font-family: "Helvetica-neue-medium";
-    src: url(../public/assets/index-page/fonts/HelveticaNeueMedium.otf) format("opentype");
+    font-family: "SF Pro Bold";
+    src: url(../public/assets/index-page/fonts/SFPRODISPLAYBOLD.OTF) format("opentype");
+    font-weight: 600;
 }
 
 @font-face {
-    font-family: "Helvetica-neue-thin";
-    src: url(../public/assets/index-page/fonts/HelveticaNeueThin.otf) format("opentype");
+    font-family: "SF Pro Thin";
+    src: url(../public/assets/index-page/fonts/SFProDisplay-Thin.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "SF Pro Regular";
+    src: url(../public/assets/index-page/fonts/SFPRODISPLAYREGULAR.OTF) format("opentype");
+    font-weight: 500;
 }
 
 * {
@@ -21,8 +29,9 @@
     --font-color: #9BA3B4;
     --link-color: #4DAAFC;
 
-    --font-family-medium: "Helvetica-neue-medium";
-    --font-family-light: "Helvetica-neue-thin";
+    --font-family-bold: "SF Pro Bold";
+    --font-family-regular: "SF Pro Regular";
+    --font-family-thin: "SF Pro Thin";
 }
 
 body, html {
@@ -31,6 +40,30 @@ body, html {
 
 body {
     background-color: var(--bg-color);  
-    font-family: var(--font-family-medium);
+    font-family: var(--font-family-regular);
     font-size: 1rem;
+}
+
+p a {
+    font-family: var(--font-family-regular);
+    color: var(--link-color);
+}
+
+p {
+    font-size: 1.1rem;
+    color: var(--font-color);
+    font-family: var(--font-family-regular);
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+.small-links {
+    font-size: 13px;
+    font-weight: 0;
+    text-shadow: 0.5px 0.5px 2px #0D1117;
+    color: var(--font-color);
+    margin: 3px 0;
+}
+
+main {
+    padding: 0 15px;
 }

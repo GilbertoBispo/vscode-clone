@@ -1,0 +1,77 @@
+/* ---------- Main Title Section ---------- */
+#main-title h1 {
+    color: var(--title-color);
+    font-size: 3rem;
+    text-align: center;
+    line-height: 75px;
+}
+
+#main-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    box-sizing: border-box; 
+}
+
+.main-title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Buttons */
+
+.main-buttons button {
+    height: 43.19px;
+    border-radius: 5px;
+    border: none;
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: var(--font-family-bold);
+}
+
+.download-button {
+    width: 204px;
+    background-color: var(--button-color);
+}
+
+.copilot-button {
+    width: 171px;
+    background-color: #26292F;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-self: center;
+}
+
+#small-links-id {
+    margin-bottom: 55px;
+    text-align: center;
+}
+.main-title-p {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+/* ---------- GitHub Copilot Section ---------- */
+
+/* Text */
+
+.copilot-text h2 {
+    color: var(--title-color);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#copilot {
+    margin-top: 50px;
+}
+
+/* Image */
+
+#copilot img {
+    width: 450px;
+}
