@@ -159,6 +159,7 @@
 #extensions-text-extra {
     text-align: center;
     font-size: 0.75rem;
+    margin-top: 12px;
 }
 
 #extensions-text-extra a {
@@ -167,3 +168,6 @@
 
 /* ---------- Costumization Section ---------- */
 
+#customization-section {
+    margin-top: 48px;
+}
