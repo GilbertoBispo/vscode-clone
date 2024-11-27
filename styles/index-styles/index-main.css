@@ -9,13 +9,37 @@
 #main-title {
     display: flex;
     flex-direction: column;
-    margin-top: 64px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    margin-top: 15px;
 }
 
 .main-title-container {
     display: flex;
     flex-direction: column;
+}
+
+#update-warn {
+    height: 60px;
+    display: flex;
+    margin-top: 65px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+#update-warn p {
+    font-size: 0.9rem;
+}
+
+#update-warn button {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    border: none;
+    width: 30px;
+}
+
+#update-warn button img {
+    width: 21px;
 }
 
 /* Buttons */
@@ -60,12 +84,6 @@
 
 /* Text */
 
-.copilot-text h2 {
-    color: var(--title-color);
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
 #copilot {
     margin-top: 50px;
 }
@@ -74,4 +92,28 @@
 
 #copilot img {
     width: 450px;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.languages img {
+    width: 40px;
+}
+
+.languages code {
+    color: var(--font-color);
+}
+
+.languages div {
+    display: flex;
+    align-items: center;
+}
+
+/* Coding Languages Section */
+
+#coding-languages {
+    margin-top: 50px;
 }

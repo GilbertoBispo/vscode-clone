@@ -67,3 +67,9 @@ p {
 main {
     padding: 0 15px;
 }
+
+.second-titles {
+    color: var(--title-color);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
