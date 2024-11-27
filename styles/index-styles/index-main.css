@@ -94,6 +94,8 @@
     width: 450px;
 }
 
+/* ---------- Coding Languages Section ---------- */
+
 .languages {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -112,8 +114,56 @@
     align-items: center;
 }
 
-/* Coding Languages Section */
-
 #coding-languages {
     margin-top: 50px;
 }
+
+/* ---------- Extensions Section ---------- */
+
+.extensions-text p {
+    margin-bottom: 10px;
+}
+
+.extensions-icons {
+    gap: 8px;
+    display: grid;
+    mask-image: linear-gradient(to top, transparent, black 70%);
+    -webkit-mask-image: linear-gradient(to top, transparent, black 70%);
+}
+
+.extensions-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border: 0.6px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    background-color: #16191F;
+}
+
+.extensions-icons img {
+    width: 40px;
+}
+
+.extensions-text {
+    margin-bottom: 30px;
+}
+
+.grid-icons {
+    gap: 8px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#extensions-text-extra {
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+#extensions-text-extra a {
+    font-size: 0.75rem;
+}
+
+/* ---------- Costumization Section ---------- */
+
