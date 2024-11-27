@@ -78,6 +78,11 @@ main {
 }
 
 .img {
-    width: 450px;
+    width: 100%;
     border-radius: 5px;
+    margin: 0 auto;
+}
+
+.main-sections-margin {
+    margin-top: 48px;
 }
