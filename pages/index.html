@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../styles/global.css"> <!-- global styles -->
         <link rel="stylesheet" href="../styles/index-styles/index-navbar.css"> <!-- navbar styles -->
         <link rel="stylesheet" href="../styles/index-styles/index-main.css"> <!-- main section styles -->
+        <link rel="stylesheet" href="../styles/index-styles/index-media-queries.css"> <!-- media queries -->
     <!-- CSS Links -->
      <link rel="shortcut icon" href="../public/assets/index-page/icon/vs-code-icon.png" type="image/x-icon">
     <title>Visual Studio Code - Code Editing. Redefined</title>
@@ -31,7 +32,7 @@
     
     <main>
         
-        <div id="update-warn">
+        <div class="side-spacing" id="update-warn">
             <p><a class="links" href="">Version 1.95</a> is now avaliable! Read about the new features and fixes for October.</p>
 
             <button><img src="../public/assets/index-page/icon/x.svg" alt="cancel icon"></button>
@@ -39,7 +40,7 @@
 
         <!-- ---------- Main Title Section ---------- -->
         
-        <section id="main-title">
+        <section class="side-spacing" id="main-title">
             <h1>Code faster with AI</h1>
 
             <p class="main-title-p">Visual Studio Code with GitHub Copilot supercharges your code with AI-powered suggestions, right in your editor.</p>
@@ -55,7 +56,7 @@
 
         <!-- ---------- Copilot Section ---------- -->
 
-        <section class="main-sections-margin" id="copilot">
+        <section class="main-sections-margin sides-spacing" id="copilot">
             <div class="copilot-text">
                 <h2 class="second-titles">Code with GitHub Copilot</h2>
 
@@ -78,19 +79,21 @@
                 </p>
             </div> <!-- copilot-text -->
 
-            <img class="img" src="../public/assets/index-page/img/swimlane-copilot.png" alt="GitHub Copilot image">
+            <div class="img-copilot-div">
+                <img class="img" src="../public/assets/index-page/img/swimlane-copilot.png" alt="GitHub Copilot image">
+            </div> <!-- img-copilot-div -->
         </section> <!-- copilot -->
 
         <!-- ---------- Coding Languages Section ---------- -->
 
-        <section class="main-sections-margin" id="coding-languages">
-            <div class="coding-languages-text">
+        <section class="main-sections-margin sides-spacing" id="coding-languages">
+            <div class="coding-languages-text half-width">
                 <h2 class="second-titles">Code in any language</h2>
 
                 <p>VS Code supports almost every major programming language. Several ship in the box, like JavaScript, TypeScript, CSS, and HTML, but extensions for others can be found in the VS Code Marketplace.</p>
             </div> <!-- coding-languages-text -->
 
-            <div class="languages">
+            <div class="languages half-width">
                 <div>
                     <img src="../public/assets/index-page/icon/language-js.png" alt="javascript language">
                     <code>JavaScript</code>
@@ -155,8 +158,8 @@
 
         <!-- ---------- Extensions Section ---------- -->
 
-        <section id="extensions">
-            <div class="extensions-text">
+        <section class="sides-spacing" id="extensions">
+            <div class="extensions-text half-width">
                 <h2 class="second-titles">Code with Extensions</h2>
 
                 <p>
@@ -165,50 +168,52 @@
                 <a class="links" href="">Learn more about extensions</a>
             </div> <!-- extensions-text -->
 
-            <div class="extensions-icons">
-                <div class="grid-icons">
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/python-extension.png" alt="python extension">
-                    </a>
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/copilot-extension.png" alt="copilot extension">
-                    </a>
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/c-extension.png" alt="c extension">
-                    </a>
-                </div> <!-- grid-icons -->
-
-                <div class="grid-icons">
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/jupyter-extension.png" alt="jupyter extension">
-                    </a>
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/gitlens-extension.png" alt="gitlens extension">
-                    </a>
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/cs-dev-kit-extension.png" alt="c# dev kit extension">
-                    </a>
-                </div> <!-- grid-icons -->
-
-                <div class="grid-icons">
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/github-codespaces-extension.png" alt="github code spaces extension">
-                    </a>
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/github-pull-requests-extension.png" alt="github pull requests extension">
-                    </a>
-                    <a class="cards">
-                        <img src="../public/assets/index-page/icon/remote-extension.png" alt="remote development extension">
-                    </a>
-                </div> <!-- grid-icons -->
-            </div> <!-- extensions-icons -->
-            <p id="extensions-text-extra">View 50k+ extensions in the <a class="links" href="">Extension Marketplace</a></p>
+            <div class="half-width">
+                <div class="extensions-icons">
+                    <div class="grid-icons">
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/python-extension.png" alt="python extension">
+                        </a>
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/copilot-extension.png" alt="copilot extension">
+                        </a>
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/c-extension.png" alt="c extension">
+                        </a>
+                    </div> <!-- grid-icons -->
+                    <div class="grid-icons">
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/jupyter-extension.png" alt="jupyter extension">
+                        </a>
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/gitlens-extension.png" alt="gitlens extension">
+                        </a>
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/cs-dev-kit-extension.png" alt="c# dev kit extension">
+                        </a>
+                    </div> <!-- grid-icons -->
+                    <div class="grid-icons">
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/github-codespaces-extension.png" alt="github code spaces extension">
+                        </a>
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/github-pull-requests-extension.png" alt="github pull requests extension">
+                        </a>
+                        <a class="cards">
+                            <img src="../public/assets/index-page/icon/remote-extension.png" alt="remote development extension">
+                        </a>
+                    </div> <!-- grid-icons -->
+                </div> <!-- extensions-icons -->
+                <div>
+                    <p id="extensions-text-extra">View 50k+ extensions in the <a class="links" href="">Extension Marketplace</a></p>
+                </div>
+            </div>
         </section> <!-- extensions -->
 
         <!-- ---------- Customization Section ---------- -->
 
-        <section class="main-sections-margin" id="customization-section" >
-            <div class="customization-section-text">
+        <section class="main-sections-margin sides-spacing" id="customization-section" >
+            <div class="customization-section-text half-width">
                 <h2 class="second-titles">Fully customizable</h2>
 
                 <p>Customize your VS Code UI and layout so that it fits your coding style.</p>
@@ -217,13 +222,15 @@
                 <p><a class="links" href="">Profiles</a> let you create sets of customizations and quickly switch between them or share them with others.</p>
             </div> <!-- customization-section-text -->
 
-            <img class="img" src="../public/assets/index-page/img/swimlane-customized.png" alt="Selecting the GitHub dark theme with a quick pick">
+            <div class="half-width">
+                <img class="img" src="../public/assets/index-page/img/swimlane-customized.png" alt="Selecting the GitHub dark theme with a quick pick">
+            </div>
         </section> <!-- customization-section -->
 
         <!-- ---------- "Code anywhere" Section ---------- -->
 
-        <section class="main-sections-margin" id="code-anywhere-section">
-            <div class="code-anywhere-section-text">
+        <section class="main-sections-margin sides-spacing" id="code-anywhere-section">
+            <div class="code-anywhere-section-text half-width">
                 <h2 class="second-titles">Code anywhere</h2>
 
                 <p>Code wherever you're most productive, whether you're connected to the cloud, a remote repository, or in the browser with VS Code for the Web (vscode.dev).</p>
@@ -231,13 +238,15 @@
                 <p><a class="links" href="">GitHub Codespaces</a> provides cloud-powered development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request.</p>
             </div> <!-- code-anywhere-section-text -->
 
-            <img class="img" src="../public/assets/index-page/img/swimlane-anywhere.png" alt="">
+            <div class="half-width">
+                <img class="img" src="../public/assets/index-page/img/swimlane-anywhere.png" alt="">
+            </div>
         </section> <!-- code-anywhere-section -->
 
         <!-- ---------- Features Section ---------- -->
 
-        <section id="features-section">
-            <div class="features-section-text">
+        <section class="sides-spacing" id="features-section">
+            <div class="features-section-text sides-spacing">
                 <h2 class="second-titles">Code with rich features</h2>
                 
                 <p>There's a lot more to an editor. Whether it's using built-in features or rich extensions, there's something for everyone.</p>

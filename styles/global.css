@@ -97,3 +97,15 @@ main {
     border: 0.6px solid rgba(255, 255, 255, 0.12);
     border-radius: 10px;
 }
+
+/* Global Media Queries */
+
+@media screen and (min-width: 768px) {
+    .sides-spacing {
+        margin: 32px 15px;
+    }
+    
+    .half-width {
+        width: 50%;
+    }
+}

@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+    main {
+        padding: 0;
+    }
+
+    /* ---------- Copilot Section ---------- */
+    
+    #copilot {
+        display: flex;
+        gap: 30px;
+    }
+
+    .copilot-text {
+        margin-right: 15px;
+    }
+
+    .img-copilot-div {
+        height: fit-content;
+        width: 100%;
+    }
+
+    /* ---------- Coding Languages Section ---------- */
+
+    #coding-languages {
+        display: flex;
+        gap: 30px;
+    }
+
+    /* ---------- Extensions Section ---------- */
+
+    #extensions {
+        display: flex;
+        gap: 30px;
+    }
+
+    /* ---------- Customization Section ---------- */
+
+    #customization-section {
+        display: flex;
+        gap: 30px;
+    }
+
+    /* ---------- "Code Anywhere" Section ---------- */
+
+    #code-anywhere-section {
+        display: flex;
+        gap: 30px;
+    }
+
+    /* ---------- Features Section ---------- */
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features-section-text {
+        text-align: center;
+    }
+
+    #features-section {
+        margin: 32px 15px 0 15px;
+    }
+}
