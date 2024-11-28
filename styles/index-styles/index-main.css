@@ -111,6 +111,7 @@
 .languages div {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .coding-languages-text p {
