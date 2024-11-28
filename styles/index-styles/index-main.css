@@ -57,7 +57,6 @@
 .download-button {
     width: 204px;
     background-color: var(--button-color);
-    margin-right: 10px;
 }
 
 .copilot-button {
@@ -67,9 +66,10 @@
 
 .main-buttons {
     display: flex;
-    justify-content: space-around;
-    width: fit-content;
     align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 #small-links-id {
@@ -125,9 +125,7 @@
     justify-content: center;
     align-items: center;
     padding: 16px;
-    border: 0.6px solid rgba(255, 255, 255, 0.12);
-    border-radius: 10px;
-    background-color: #16191F;
+
 }
 
 .extensions-icons img {
@@ -155,4 +153,47 @@
     font-size: 0.75rem;
 }
 
-/* ---------- Costumization Section ---------- */
+/* ---------- Features Section ---------- */
+
+.features-section-text {
+    padding: 16px 0;
+    box-sizing: border-box;
+}
+
+.features-section-text p {
+    margin: 12px 0;
+}
+
+.features-grid {
+    display: grid;
+    gap: 16px;
+}
+
+.features-grid div p {
+    margin: 0;
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.features-grid div h3 {
+    font-weight: 600;
+    line-height: 160%;
+    font-size: 16px;
+}
+
+.features-grid div {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-grid div img {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: #262A30;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
