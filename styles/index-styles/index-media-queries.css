@@ -61,3 +61,93 @@
         margin: 32px 15px 0 15px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+
+    /* ---------- Nav ---------- */
+
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        align-items: center;
+        height: 60px;
+        box-sizing: border-box;
+    }
+
+    .nav-links {
+        text-decoration: none;
+        color: var(--font-color);
+    }
+    nav {
+        height: fit-content;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        padding: 0 67px;
+    }
+    nav .menu {
+        display: none;
+    }
+
+    .nav-download-menu {
+        display: flex;
+        list-style: none;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 79.8%;
+    }
+
+    .nav-download-menu li {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+        justify-content: center;
+    }
+
+    .light-theme {
+        padding: 1px 6px;
+        width: 32px;
+        height: 32px;
+        box-sizing: border-box;
+    }
+
+    .light-theme img {
+        width: 20px;
+    }
+
+    .search-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .nav-download-button {
+        padding: 8px 16px;
+        text-decoration: none;
+        color: var(--title-color);
+        background-color: var(--button-color);
+        border-radius: 4px;
+    }
+
+    .container-nav {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        height: fit-content;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    #update-warn {
+        display: none;
+    }
+
+    #main-title {
+        margin-top: 150px;
+    }
+
+    .logo {
+        align-self: flex-start;
+        height: 60px;
+    }
+}

@@ -5,6 +5,7 @@ nav {
     align-items: center;
     height: 58px;
     background-color: var(--bg-color);
+    width: 100%;
 }
 
 .logo {
@@ -36,4 +37,22 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.nav-download-menu {
+    display: none;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-download-div {
+    display: none;
 }

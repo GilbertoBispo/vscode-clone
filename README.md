@@ -14,3 +14,7 @@ Este é um projeto pessoal para recriar o layout do site do VS Code, focado em a
 1. Clone este repositório:
    ```bash
     git clone https://github.com/https://github.com/GilbertoBispo/vscode-clone.git
+
+## Nota:
+
+Gostaria de destacar que esse projeto foi criado exclusivamente para fins educacionais. As imagens e ícones utilizados pertencem à Microsoft, e os direitos autorais são respeitados.
